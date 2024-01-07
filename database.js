@@ -15,9 +15,9 @@ class Database {
     constructor() {
         this.connect();
     }
-
+   
     connect() {
-        mongoose.connect("mongodb+srv://admin:dbUserPassword@twitterclonecluster.e0mcw.azure.mongodb.net/TwitterCloneDB?retryWrites=true&w=majority")
+        mongoose.connect("mongodb+srv://nelson:nelson@twitterclonecluster.xv8fkaz.mongodb.net/?retryWrites=true&w=majority")
         .then(() => {
             console.log("database connection successful");
         })

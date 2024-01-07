@@ -1,44 +1,68 @@
-body {
-    background-color: #0099ff;
-}
+/* Add this CSS to your existing stylesheet or create a new one */
 
-.wrapper {
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-}
-
-.loginContainer {
-    padding: 20px;
-    width: 80%;
-    max-width: 500px;
-    border: 1px solid #dedede;
-    background-color: #fff;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loginContainer {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
     text-align: center;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-}
-
-form {
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1da1f2;
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+  }
+  
+  input {
+    padding: 15px;
     margin-bottom: 20px;
-    padding: 5px 10px;
-    border-radius: 2px;
-    border: 1px solid #dedede;
-    background-color: #f2f2f2;
-}
-
-input[type="submit"] {
-    background-color: #0099ff;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1da1f2;
     color: #fff;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 10px;
-}
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0c84c2;
+  }
+  
+  a {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .errorMessage {
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles for advanced features as needed */
+  
